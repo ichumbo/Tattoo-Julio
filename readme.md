@@ -1,9 +1,9 @@
-# The Void Tatto - Uma página para tatuadores
 
 <div align="center">
- The Void é uma página inicial para os tatuadores apresentar seu studio e modelos totalmente responsiva, responsiva para todos os dispositivos, construída usando HTML, CSS e JavaScript.
+ # Julio Tattoo 
+ Julio Tattoo é uma página inicial para meu amigo Júlio apresentar seu studio e modelos totalmente responsiva, responsiva para todos os dispositivos, construída usando HTML, CSS e JavaScript.
   <br>
-  <a href="https://ichumbo.github.io/Landing-Tatto/"><strong>➥ Demonstração ao vivo</strong></a>
+  <a href="https://ichumbo.github.io/Tattoo-Julio/"><strong>➥ Demonstração ao vivo</strong></a>
 </div>
 
 ## Demo
