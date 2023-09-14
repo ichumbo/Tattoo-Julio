@@ -1,0 +1,1739 @@
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+/*** 
+
+====================================================================
+	Reset
+====================================================================
+
+ ***/
+
+*{
+	margin:0px;
+	padding:0px;
+	border:none;
+	outline:none;
+	font-size: 100%;
+}
+
+/*** 
+
+====================================================================
+  Global Settings
+====================================================================
+
+ ***/
+
+.container {
+  max-width: 1300px;
+}
+
+body {  
+  font-size: 18px;
+  color: #555;
+  line-height: 187%;
+  font-weight: 400;
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-family: 'Raleway', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+  color: #111;
+}
+
+a:hover,
+a:focus,
+a:visited{
+  text-decoration: none;
+  outline: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  position: relative;
+  font-weight: 400;
+  margin: 0px;
+  background: none;
+  line-height: 104%;
+  letter-spacing: 0.03em;
+  font-family: 'Oswald', sans-serif;
+}
+
+textarea{
+  overflow: hidden;
+}
+
+button{
+  outline: none;
+  cursor: pointer;
+}
+
+p{
+  font-size: 18px;
+  line-height: 187%;
+  font-weight: 400;
+  color: #555;
+}
+
+.text{
+  font-size: 13px;
+  line-height: 168.4%;
+  font-weight: 700;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #AFAFAF;
+  margin-left: 24px;
+  margin-bottom: 10px;
+}
+
+.text::before{
+  content: '';
+  margin-top: 10px;
+  margin-left: -24px;
+  position: absolute;
+  width: 14px;
+  height: 2px;
+  background: #C5A992;
+}
+
+::-webkit-input-placeholder{color: inherit;}
+::-moz-input-placeholder{color: inherit;}
+::-ms-input-placeholder{color: inherit;}
+
+section{
+  padding: 164px 0px;
+}
+
+ul,li{
+  list-style:none;
+  padding:0px;
+  margin:0px; 
+}
+
+.centered{
+  text-align:center !important;
+}
+
+/*Btn*/
+
+a.btn {
+  color: #EAC696;
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  box-sizing: border-box;
+  padding: 20px 40px;
+  font-weight: 400;
+  line-height: auto;
+  overflow: hidden;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-top: 75px;
+  border-radius: 0;
+  transition-duration: 0.3s;
+}
+
+a.btn .iconify{
+  margin-left: 8px;
+}
+
+/* Btn black */
+
+a.btn-black{
+  background: #111;
+  border: none;
+  border-radius: 8px;
+}
+
+a.btn-black:hover{
+  color: #fff;
+  background-color: #444;
+  border: none;
+}
+
+/* Btn outline */
+
+a.btn-outline{
+  border: 1px solid #EAC696;
+  box-sizing: border-box;
+}
+
+a.btn-outline:hover{
+  background-color: #EAC696;
+  border: 1px solid #EAC696;
+}
+
+/* Btn blank */
+
+a.btn-blank{
+  color: #111;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+a.btn-blank:hover{  
+  color: #EAC696;
+  border: none;
+}
+
+img{
+  display:inline-block;
+  max-width:100%;
+  height:auto;  
+}
+
+/*** 
+
+====================================================================
+    Preloader
+====================================================================
+
+***/
+
+#preloader {
+  background-color: #010101;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999999;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.6s ease, visibility 0.6s ease;
+}
+#preloader.hide-preloader {
+  opacity: 0;
+  visibility: hidden;
+}
+#loader {
+  display: block;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  width: 200px;
+  height: 200px;
+  margin: -100px 0 0 -100px;
+  border-radius: 50%;
+  border: 5px solid transparent;
+  border-top-color: #f3f3f3;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+#loader:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 50%;
+  border: 5px solid transparent;
+  border-top-color: #f3f3f3;
+  -webkit-animation: spin 3s linear infinite;
+  animation: spin 3s linear infinite;
+}
+#loader:after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  border-radius: 50%;
+  border: 5px solid transparent;
+  border-top-color: #f3f3f3;
+  -webkit-animation: spin 1.5s linear infinite;
+  animation: spin 1.5s linear infinite;
+}
+@-webkit-keyframes spin {
+  0% {
+      -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  100% {
+      -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+      -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  100% {
+      -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      transform: rotate(360deg);
+  }
+}
+
+/*** 
+
+====================================================================
+    Section Title
+====================================================================
+
+***/
+
+.sec-title h1{
+  display: block;
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #111; 
+  margin-bottom: 75px; 
+}
+
+@media screen and (max-width:800px){
+  .sec-title h1{
+    font-size: 76px;
+  }
+}
+
+/*** 
+
+====================================================================
+  Site Header Style
+====================================================================
+
+ ***/
+
+.header-wrap{
+  background-color: #EAC696;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 85px;
+  text-align: center;
+  z-index: 14;
+  box-shadow: 0px 2px 24px rgb(0 0 0 / 3%);
+}
+
+.header-wrap .header-logo {
+  display: inline-block;
+  position: absolute;
+  top: 18%;
+  left: 45px;
+}
+
+.header-wrap .header-logo img {
+  width: 70px;
+  margin: 0;
+  position: relative;
+  top: -7px;
+  left: 20px;
+}
+
+.header-wrap .header-nav-wrap ul {
+  text-align: center;
+  display: inline-block;
+  list-style: none;
+  margin-left: 0;
+  margin-top: 30px;
+}
+
+.header-wrap .header-nav-wrap ul li{
+  display: inline-block;
+}
+
+.header-wrap .header-nav-wrap .header-main-nav li{
+  margin: 0 24px;
+}
+
+.header-wrap .header-nav-wrap .header-main-nav li a{
+  font-family: Oswald;
+  padding: 0;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #111;
+}
+
+.header-wrap .header-nav-wrap .header-main-nav li a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  margin-top: -4px;
+  background: #111;
+  transition: width .3s;
+}
+
+.header-wrap .header-nav-wrap .header-main-nav li a:hover::after {
+  color: #111;
+  width: 100%;
+  transition: width .3s;
+}
+
+.header-wrap .header-nav-wrap .header-main-nav li a.active::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin-top: -4px;
+  background: #111;
+  transition: width .3s;
+}
+
+.header-wrap .header-nav-wrap .header-social{
+  font-size: 22px;
+  position: absolute;
+  top: 0;
+  right: 40px;
+}
+
+.header-wrap .header-nav-wrap .header-social a{
+  font-size: 22px;
+  margin-left: 20px; 
+  transition-duration: 0.3s;
+}
+
+.header-wrap .header-nav-wrap .header-social a:hover{
+  color: #444;
+}
+
+/*** 
+
+====================================================================
+  Menu trigger
+====================================================================
+
+ ***/
+
+.header-menu-toggle {
+  display: none;
+  height: 42px;
+  width: 42px;
+  line-height: 42px;
+  font-family: "Lora", serif;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  color: rgba(255, 255, 255, 0.5);
+  transition: all .3s;
+  position: absolute;
+  right: 32px;
+  top: 33px;
+}
+
+.header-menu-toggle:hover,
+.header-menu-toggle:focus {
+  color: #ffffff;
+}
+
+.header-menu-toggle span {
+  display: block;
+  width: 28px;
+  height: 2px;
+  margin-top: -1px;
+  background-color: #111;
+  transition: all .5s;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  position: absolute;
+  top: 50%;
+  left: 9px;
+  right: auto;
+  bottom: auto;
+}
+
+.header-menu-toggle span::before,
+.header-menu-toggle span::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  position: absolute;
+  left: 0;
+  transition: all .5s;
+}
+
+.header-menu-toggle span::before {
+  top: -10px;
+}
+
+.header-menu-toggle span::after {
+  bottom: -10px;
+}
+
+.header-menu-toggle.is-clicked span {
+  background-color: white;
+  transition: all .1s;
+}
+
+.header-menu-toggle.is-clicked span::before,
+.header-menu-toggle.is-clicked span::after {
+  background-color: #111;
+}
+
+.header-menu-toggle.is-clicked span::before {
+  top: 0;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.header-menu-toggle.is-clicked span::after {
+  bottom: 0;
+  -webkit-transform: rotate(225deg);
+  transform: rotate(225deg);
+}
+
+.text-alignj {
+  text-align: justify;
+}
+
+
+/*** 
+
+====================================================================
+  Responsive Site Header Style
+====================================================================
+
+ ***/
+
+@media screen and (max-width:1200px) {
+  .header-wrap {
+    text-align: right;
+  }
+
+  .header-wrap .header-nav-wrap {
+    margin-right: 26px;
+  }
+
+  .header-wrap .header-nav-wrap .header-social {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width:1000px) {
+  .header-wrap {
+    background-color: #EAC696;
+    height: 114px;
+    position: fixed;
+    top: 0;
+  }
+
+  .header-wrap .header-logo {
+    left: 20px;
+  }
+
+  .header-wrap .header-logo img {
+    width: 145px;
+  }
+
+  .header-wrap .header-nav-wrap {
+    display: none;
+    text-align: left;
+    height: auto;
+    width: 100%;
+    background-color: #EAC696;
+    padding: 144px 44px 64px;
+  }
+
+  .header-wrap .header-nav-wrap .header-main-nav {
+    display: block;
+    padding-left: 0;
+    height: auto;
+    margin: 0 0 2rem 0;
+    border-top: 1px solid rgb(0 0 0 / 4%);
+  }
+
+  .header-wrap .header-nav-wrap .header-main-nav li {
+    text-align: left;
+    display: block;
+    margin: 0;
+    padding: 7px 0;
+    border-bottom: 1px solid rgb(0 0 0 / 4%);
+  }
+
+  .header-wrap .header-nav-wrap .header-main-nav li a {
+    padding: 18px 0;
+    line-height: 20px;
+  }
+
+  .header-wrap .header-nav-wrap .header-main-nav li a::after {
+    content: '';
+    width: 0;
+  }
+
+  .header-wrap .header-nav-wrap .header-main-nav li a:hover::after {
+    width: 0;
+  }
+
+  .header-wrap .header-nav-wrap .header-main-nav li a.active::after {
+    content: '';
+    width: 0;
+  }
+
+  .header-wrap .header-nav-wrap .header-main-nav li a.active{
+    color: #444;
+  }
+
+  .header-wrap .header-nav-wrap .header-social {
+    text-align: left;
+    display: block;
+    position: static;
+  }
+
+  .header-wrap .header-nav-wrap .header-social li {
+    font-size: 1.8rem;
+    margin-right: 1.6rem;
+  }
+
+  .header-wrap .header-nav-wrap .header-social li a {
+    line-height: 36px;
+    margin-left: 0;
+  }
+
+  .header-wrap .header-menu-toggle {
+    display: block;
+  }
+
+}
+
+@media only screen and (min-width:1000px) {
+  .header-wrap .header-nav-wrap {
+    display: block !important;
+  }
+}
+
+/*** 
+
+====================================================================
+  Billboard Style
+====================================================================
+
+ ***/
+
+.billboard-wrap{
+  margin-top: 0;
+  padding: 0;
+}
+
+.billboard-wrap .billboard-bg-img{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  
+}
+
+.billboard-wrap .billboard-bg-img .billboard-content h1{
+  font-family: "Rozha One";
+  font-size: 110px;
+  line-height: 95%;
+  letter-spacing: -0.02em;
+  text-transform: capitalize;  
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.billboard-wrap .billboard-bg-img .billboard-content p{
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 200%;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.billboard-wrap .billboard-bg-img .billboard-content a.btn{
+  margin-top: 35px;
+  border-radius: 8px;
+}
+
+/*** 
+
+====================================================================
+  Responsive Billboard Style
+====================================================================
+
+ ***/
+
+@media screen and (max-width:800px){
+  .billboard-wrap .billboard-bg-img .billboard-content h1{
+    font-size: 90px;
+  }
+
+  .billboard-wrap .billboard-bg-img .billboard-content p{
+    font-size: 18px;
+  }
+}
+
+/*** 
+
+====================================================================
+  About Us Style
+====================================================================
+
+ ***/
+
+ .about-wrap .about-img {
+    border-radius: 16px;
+    width: 400px;
+    margin-left: 130px;
+ }
+
+.about-wrap .section-image{
+  margin-left: -25px;
+  padding-right: 29px;
+}
+
+.about-wrap .about-me-content .sec-title h1{
+  margin-bottom: 38px;
+}
+
+.about-wrap .row .about-me-content{
+  margin-top: 66px;
+}
+
+.about-wrap .short-description a.btn{
+  margin-top: 24px;
+}
+
+/*** 
+
+====================================================================
+  Responsive About Us Style
+====================================================================
+
+ ***/
+
+@media screen and (max-width:800px){
+  .about-wrap .section-image {
+    display: none;
+  }
+
+  .about-wrap .row .about-me-content {
+    margin-top: 0;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width:500px){
+  .about-wrap .short-description {
+    padding-left: 0;
+  }
+}
+
+/*** 
+
+====================================================================
+  Gallery Style
+====================================================================
+
+ ***/
+
+.gallery-wrap{
+  padding: 160px 0;
+}
+
+.gallery-wrap .row div{
+  padding: 0 10px;
+}
+
+.gallery-wrap .row div img{
+  margin-bottom: 20px;
+  width: -webkit-fill-available;
+  cursor: crosshair;
+  transition-duration: .3s;
+}
+
+.gallery-wrap .row div img:hover{
+  -webkit-filter: brightness(60%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.gallery-wrap .text-center a.btn.btn-black{
+  margin-top: 55px;
+}
+
+.mfp-bottom-bar{
+  display: none;
+}
+
+/*** 
+
+====================================================================
+  Services Style
+====================================================================
+
+ ***/
+
+.services-wrap{
+  text-align: center;
+}
+
+.services-wrap .chart{
+  position: relative;
+  display: inline-block;
+  width: 290px;
+  height: 290px;
+}
+
+.services-wrap .chart:before{
+  content: "";
+  border: 7px solid #EEEEEE;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%)translateY(-50%);
+  display: block;
+  width: 251px;
+  height: 251px;
+  border-radius: 50%;
+}
+
+.services-wrap .chart .percent{
+  font-family: Oswald;
+  font-size: 78px;
+  line-height: 294px;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+
+.services-wrap .chart .percent:after{
+  position: relative;
+  content: '%';
+  font-weight: lighter;
+  padding-left: 3px;
+}
+
+.services-wrap .chart p{
+  margin-top: 18px;
+  font-family: Oswald;
+  font-weight: 300;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #111;  
+}
+
+.services-wrap .chart canvas{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*** 
+
+====================================================================
+  Testimonials Style
+====================================================================
+
+ ***/
+
+.testimonials-wrap{
+  padding-top: 0;
+}
+
+.testimonials-wrap .testimonial-slider .item-paragraph{
+  font-size: 36px;
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  color: #111;
+}
+
+.testimonials-wrap .testimonial-slider .item-content{
+  position: relative;
+  padding-top: 4%;
+  padding-left: 20%;
+}
+
+.testimonials-wrap .testimonial-slider .item-content .quotation-img{
+  position: absolute;
+  z-index: -10;
+  left: 70px;
+  top: 0px;
+}
+
+.testimonials-wrap .testimonial-slider .item-content .author-name{
+  font-family: Oswald;
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #111; 
+}
+
+.item-content .testimonial-author{
+  margin-top: 50px;
+}
+
+.item-content .testimonial-author .author-name span{
+  font-weight: 300;
+}
+
+.item-content .testimonial-author .author-name span::before{
+  content: '|';
+  margin: 0 20px;
+}
+
+.testimonials-wrap .testimonial-slider .author-post{  
+  font-size: 14px;
+  line-height: 212.4%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #757575;
+}
+
+.testimonial-slider-btn{
+  text-align: right;
+  margin-right: 8%;
+}
+
+.slide-button-next, .slide-button-prev{
+  font-size: 50px;
+  display: inline;
+  margin-right: 5px;
+}
+
+.slide-button-next, .slide-button-prev, a{
+  transition-duration: 0.3s;
+}
+
+.slide-button-next, .slide-button-prev, a:hover{
+  color: #444;
+}
+
+.slide-button-next.swiper-button-disabled, .slide-button-prev.swiper-button-disabled {
+  opacity: .25;
+  cursor: auto;
+  pointer-events: none;
+}
+
+/*** 
+
+====================================================================
+  Responsive Testimonials Style
+====================================================================
+
+ ***/
+
+@media screen and (max-width:800px){
+  .testimonials-wrap{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .testimonials-wrap .testimonial-slider .item-paragraph{
+    font-size: 32px;
+  }
+
+  .testimonials-wrap .testimonial-slider .item-content{
+    padding: 0;
+  }
+
+  .testimonials-wrap .testimonial-slider .item-content .quotation-img{
+    left: 0px;
+  }
+}
+
+/*** 
+
+====================================================================
+  Interview Style
+====================================================================
+
+ ***/
+
+.interview-wrap{
+  padding: 0;
+}
+
+.interview-wrap .interview-bg-img{
+  height: 812px;
+  width: 100%;
+  padding: 0;  
+  display: flex;
+  align-items: center;
+}
+
+.interview-wrap .interview-bg-img .interview-content h2{
+  font-family: Rozha One;
+  font-size: 60px;
+  line-height: 110%;
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.interview-wrap .interview-bg-img .interview-content .video-btn{
+  display: flex;
+  align-items: center;
+  margin-top: 33px;
+  margin-left: 9px;
+}
+
+.interview-wrap .interview-bg-img .interview-content .video-btn a.play-btn svg.iconify{
+  margin-left: 4%;
+}
+
+.interview-wrap .interview-bg-img .interview-content .video-btn a.play-btn{
+  position: relative;  
+  font-size: 35px;
+  color: #000;  
+  background-color: #fff;
+  width: 75px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.interview-wrap .interview-bg-img .interview-content .video-btn a.play-btn:before{
+  content: "";
+  opacity: 0.4;
+  border: 1px solid #fff;
+  position: absolute;
+  z-index: 0;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%)translateY(-50%);
+  display: block;
+  width: 91px;
+  height: 91px;
+  border-radius: 50%;
+}
+
+.interview-wrap .interview-bg-img .interview-content .video-btn .btn{
+  margin: 0;
+  margin-left: 28px;
+  padding: 0;
+  border: none;
+  letter-spacing: 0.1em;
+}
+
+.interview-wrap .interview-bg-img .interview-content .video-btn .btn:hover{
+  color: #fff;
+}
+
+/*** 
+
+====================================================================
+  Responsive Interview Style
+====================================================================
+
+ ***/
+
+@media screen and (max-width:800px){
+  .interview-wrap .interview-bg-img .interview-content h2{    
+    font-size: 55px;
+  }  
+}
+
+/*** 
+
+====================================================================
+  Articles Style
+====================================================================
+
+ ***/
+
+.articles-wrap .container{
+  max-width: 1583px;
+}
+
+.articles-wrap .article-post-item{
+  padding-right: 54px;
+  padding-left: 54px;
+}
+
+.articles-wrap .article-post-item .article-img{
+  overflow: hidden;
+}
+
+.articles-wrap .article-post-item .article-img a img{
+  transition-duration: .3s;
+}
+
+.articles-wrap .article-post-item .article-img a img:hover{
+  -webkit-filter: brightness(60%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  transform: scale(1.1);
+}
+
+.articles-wrap .article-post-item h4{
+  margin-left: 10px;
+  margin-bottom: 16px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 187%;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #111;
+}
+
+.articles-wrap .article-post-item .lower-content h3{
+  margin-top: 32px;
+  margin-bottom: 7px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 187%;
+  letter-spacing: 0.02em;
+  color: #111;
+}
+
+.articles-wrap .article-post-item .lower-content span{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #ACACAC;
+}
+
+/*** 
+
+====================================================================
+  Responsive Interview Style
+====================================================================
+
+ ***/
+
+@media screen and (max-width:1100px){
+  .articles-wrap .article-post-item{
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width:768px){
+  .articles-wrap .article-post-item{
+    margin-bottom: 60px;
+    padding: 0 15px;
+  }
+
+  .articles-wrap .article-post-item h4{
+    margin-left: 0;
+  }
+}
+
+/*** 
+
+====================================================================
+  Contact Us Style
+====================================================================
+
+ ***/
+
+.contact-wrap{
+  padding: 150px 0;
+  margin-bottom: 0;
+}
+
+.contact-wrap .contact-info h4{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 187%;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.contact-wrap .contact-info p{
+  letter-spacing: 0.02em;
+  color: #333333;
+}
+
+.contact-wrap .contact-info .contact-info-list li a{
+  margin-bottom: 14px;
+}
+
+.contact-wrap .contact-info .contact-info-list a{ 
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+}
+
+.contact-wrap .contact-info .contact-info-list li svg.iconify{
+  margin-top: 4px;
+  margin-right: 10px;
+}
+
+.contact-wrap .contact-info .contact-info-list a:hover{
+  color: #444;
+}
+
+.contact-wrap .contact-info .btn.btn-blank{
+  font-family: Raleway;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  margin-top: 22px;
+  border-bottom: 1px solid #111;
+  padding-bottom: 2px;
+}
+
+.contact-wrap .contact-form{
+  margin-top: -90px;
+  margin-left: 40px;
+}
+
+.contact-wrap .contact-form .form-group{
+  margin-bottom: 45px;
+}
+
+.contact-wrap .contact-form .form-group ::placeholder{
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.06em;
+  color: #555;
+}
+
+.contact-wrap .contact-form .form-group input,textarea{  
+  width: 100%;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #111;
+  background: transparent;
+  font-size: 16px;
+  line-height: 100%;
+  color: #333;
+}
+
+.contact-wrap .contact-form .form-group textarea{
+  height: 38px;
+}
+
+.contact-wrap .contact-form a.btn{
+  margin-top: 25px;
+}
+
+/*** 
+
+====================================================================
+  Responsive Contact Us Style
+====================================================================
+
+ ***/
+
+@media screen and (max-width:768px){
+  .contact-wrap .contact-form{
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .contact-wrap .container .row .contact-info,.contact-form{
+    margin-bottom: 60px;
+  }
+}
+
+/*** 
+
+====================================================================
+  Main Footer Style
+====================================================================
+
+ ***/
+
+.main-footer .widgets-section{
+  padding-bottom: 127px;
+  padding-top: 156px;
+}
+
+.main-footer .widgets-section .footer-column .footer-widget.links-widget{
+  padding-left: 20%;
+}
+
+.main-footer .widgets-section .footer-widget h4{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #fff;  
+  margin-bottom: 24px;
+}
+
+.main-footer .widgets-section .footer-widget p, 
+.main-footer .widgets-section .footer-widget a{
+  letter-spacing: 0.02em;
+  color: #d6d6d6;  
+}
+
+.main-footer .widgets-section .footer-widget a{
+  margin-bottom: 24px;
+}
+
+.main-footer .widgets-section .footer-widget a:hover{
+  font-weight: 400;
+  color: #fff;
+}
+
+.main-footer .widgets-section .about-widget .contact-info-list a{
+  font-weight: 600;
+}
+
+.main-footer .widgets-section .about-widget .contact-info-list a svg.iconify{
+  margin-right: 10px;
+}
+
+.main-footer .widgets-section .about-widget .contact-info-list a:hover{
+  font-weight: 600;
+  color: #fff;
+}
+
+.main-footer .widgets-section .newsletter-widget .form-group{
+  position: relative;
+  margin-top: 25px;
+}
+
+.main-footer .widgets-section .newsletter-widget .form-group ::placeholder{
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.06em;
+  text-transform: capitalize;
+  color: #DBDBDB;
+}
+
+.main-footer .widgets-section .newsletter-widget .form-group input{
+  position: absolute;
+  width: 100%;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #B6B6B6;
+  background: transparent;
+  font-size: 16px;
+  line-height: 100%;
+  color: #fff;
+}
+
+.main-footer .widgets-section .newsletter-widget .form-group a{
+  position: absolute;
+  right: 0;
+  top: -8px;
+  font-size: 26px;
+  color: #F2F2F2;
+  margin-bottom: 0;
+}
+
+.main-footer .footer-bottom{
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #DBDBDB;
+  padding: 37px 0;
+  border-top: 1px solid #2B2B2B;
+}
+
+.main-footer .footer-bottom a{
+  font-weight: 500;
+  color: #fff;
+}
+
+.main-footer .footer-bottom a:hover{
+  text-decoration: underline;
+}
+
+/*** 
+
+====================================================================
+  Responsive Main Footer Style
+====================================================================
+
+ ***/
+
+@media screen and (max-width:768px){
+  .main-footer .widgets-section{
+    padding-bottom: 66px;
+  }
+  
+  .main-footer .widgets-section .footer-column{
+    margin-bottom: 60px;
+  }
+
+  .main-footer .widgets-section .footer-column .footer-widget.links-widget {
+    padding-left: 0;
+  }
+}
+
+/* overide */
+.modal-dialog {
+  max-width: 800px;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width:450px){
+  .header-wrap .header-logo img {
+    width: 85px;
+    position: relative;
+    left: -10px;
+}
+}
+
+@media screen and (max-width:780px){
+  .header-wrap .header-logo img {
+    width: 85px;
+    position: relative;
+    left: 10px;
+}
+}
