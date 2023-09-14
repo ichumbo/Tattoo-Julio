@@ -1,6 +1,6 @@
-# Julio Tattoo 
 
 <div align="center">
+ # Julio Tattoo 
  Julio Tattoo é uma página inicial para meu amigo Júlio apresentar seu studio e modelos totalmente responsiva, responsiva para todos os dispositivos, construída usando HTML, CSS e JavaScript.
   <br>
   <a href="https://ichumbo.github.io/Tattoo-Julio/"><strong>➥ Demonstração ao vivo</strong></a>
