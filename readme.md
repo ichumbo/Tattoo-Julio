@@ -8,7 +8,7 @@
 
 ## Demo
 
-![Pod Desktop Demo](./website-demo-image/desktop.jpg "Desktop Demo")
+![Pod Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
 
 ## Contato
 
